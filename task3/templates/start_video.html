@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div>
+        <img src="{{url_for('video_feed')}}" alt="">
+        <a href="{{url_for('stop_video')}}"><button class = "btn btn-secondary" type="button">Click Me to stop video!</button></a>
+    </div>
+{% endblock %}

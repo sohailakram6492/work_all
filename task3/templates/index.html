@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="col jumbotron">
+        <a href="{{url_for('start_video')}}"><button type="button" class='btn btn-primary'> Click Me to start Video!</button></a>
+        <a href="{{url_for('stop_video')}}"><button type="button" class='btn btn-primary'> Directly go to Result</button></a>
+    </div>
+
+{% endblock %}
+
+
